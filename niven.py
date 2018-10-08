@@ -1,6 +1,8 @@
 # flake8: noqa
 
 """
+https://code-golf.io/niven-numbers
+:when
 A niven number is a non-negative number that is divisible by the sum of its digits.
 
 Print all the niven numbers from 0 to 100 inclusive, each on their own line.
@@ -20,5 +22,5 @@ def golf():
 
 
 if __name__ == '__main__':
-    forma_basica()
-    # golf()
+    # forma_basica()
+    golf()
