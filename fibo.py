@@ -8,7 +8,7 @@ each on a separate line.
 
 """
 
-def forma_basica():
+def regular():
     def fibo(i):
         if i==0 or i==1:
             return i
@@ -27,5 +27,5 @@ def golf():
 
 
 if __name__ == '__main__':
-    # forma_basica()
+    # regular()
     golf()

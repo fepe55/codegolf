@@ -2,12 +2,12 @@
 
 """
 https://code-golf.io/niven-numbers
-:when
+
 A niven number is a non-negative number that is divisible by the sum of its digits.
 
 Print all the niven numbers from 0 to 100 inclusive, each on their own line.
 """
-def forma_basica():
+def regular():
     for i in range(101):
         sum = 0
         for digit in str(i):
@@ -22,5 +22,5 @@ def golf():
 
 
 if __name__ == '__main__':
-    # forma_basica()
+    # regular()
     golf()

@@ -1,5 +1,7 @@
 # flake8: noqa
 """
+https://code-golf.io/happy-numbers
+
 A happy number is defined by the following sequence: Starting with any positive
 integer, replace the number by the sum of the squares of its digits in
 base-ten, and repeat the process until the number either equals 1 (where it
@@ -17,17 +19,17 @@ Print all the happy numbers from 1 to 200 inclusive, each on their own line.
 """
 
 
-def forma_basica():
-    def is_happy(numero, valores_anteriores):
-        valor_actual = 0
-        for digito in str(numero):
-            valor_actual += pow(int(digito), 2)
-        if valor_actual == 1:
+def regular():
+    def is_happy(number, prev_values):
+        current_value = 0
+        for digit in str(number):
+            current_value += pow(int(digit), 2)
+        if current_value == 1:
             return True
-        if valor_actual in valores_anteriores:
+        if current_value in prev_values:
             return False
-        valores_anteriores.append(valor_actual)
-        return is_happy(valor_actual, valores_anteriores)
+        prev_values.append(current_value)
+        return is_happy(current_value, prev_values)
 
     for i in range(201):
         if is_happy(i, []):
@@ -49,5 +51,5 @@ def golf():
 
 
 if __name__ == '__main__':
-    # forma_basica()
+    # regular()
     golf()

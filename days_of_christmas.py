@@ -1,9 +1,11 @@
 # flake8: noqa
 """
+https://code-golf.io/12-days-of-christmas#python
+
 Print the lyrics to the song The 12 Days of Christmas:
 
 """
-def forma_basica():
+def regular():
     stuff = [
         'Twelve Drummers Drumming,',
         'Eleven Pipers Piping,',
@@ -49,4 +51,5 @@ def golf():
 
 
 if __name__ == '__main__':
+    # regular()
     golf()

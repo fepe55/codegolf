@@ -17,7 +17,7 @@ def _is_prime(n):
     return prime
 
 
-def forma_basica():
+def regular():
     for number in range(10,1001):
         digits = str(number)
         reversed_number = int(str(number)[::-1])
@@ -33,5 +33,5 @@ def golf():
   if all([p(n),p(r)]):print(n)
 
 if __name__ == '__main__':
-    # forma_basica()
+    # regular()
     golf()

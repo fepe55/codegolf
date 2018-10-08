@@ -9,7 +9,7 @@ the number is a multiple of five then print Buzz.
 
 For numbers which are multiples of both three and five then print FizzBuzz.
 """
-def forma_basica():
+def regular():
     for i in range(1, 101):
         if(i % 3 == 0):
             print('Fizz', end='')
@@ -20,7 +20,7 @@ def forma_basica():
         print()
 
 
-def forma_uno():
+def one_way():
     a = ['{}-fizz'.format(i) for i in range(1,16) if not i%3]
     b = ['{}-buzz'.format(i) for i in range(1,16) if not i%5]
     c = [str(i) for i in range(1,16) if i%3 and i%5]
@@ -30,7 +30,7 @@ def forma_uno():
 
 
 def golf():
-    i=0;exec("print(i%3//2*'Fizz'+i%5//4*'Buzz'or-~i);i+=1;"*100)
+ i=0;exec("print(i%3//2*'Fizz'+i%5//4*'Buzz'or-~i);i+=1;"*100)
 
 
 if __name__ == '__main__':
