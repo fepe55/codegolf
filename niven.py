@@ -15,7 +15,7 @@ def forma_basica():
 
 def golf():
  for i in range(1,101):
-  if not i%sum([int(x) for x in str(i)]):
+  if not i%sum([int(x)for x in str(i)]):
    print(i)
 
 
