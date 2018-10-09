@@ -1,6 +1,6 @@
 # flake8: noqa
 """
-https://code-golf.io/12-days-of-christmas#python
+https://code-golf.io/12-days-of-christmas
 
 Print the lyrics to the song The 12 Days of Christmas:
 
