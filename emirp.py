@@ -1,7 +1,7 @@
 # flake8: noqa
 
 """
-https://code-golf.io/emirp-numbers#python
+https://code-golf.io/emirp-numbers
 
 Emirp Numbers
 =============
