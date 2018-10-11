@@ -1,4 +1,5 @@
 # flake8: noqa
+
 """
 https://code-golf.io/evil-numbers
 

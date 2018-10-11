@@ -3,6 +3,9 @@
 """
 https://code-golf.io/emirp-numbers#python
 
+Emirp Numbers
+=============
+
 An emirp (prime spelled backwards) is a prime number that results in a different prime when its decimal digits are reversed. For example both 13 and 31 are emirps.
 
 Print all the emirp numbers from 1 to 1000 inclusive, each on their own line.

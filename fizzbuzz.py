@@ -1,6 +1,10 @@
 # flake8: noqa
+
 """
 https://code-golf.io/fizz-buzz
+
+Fizz Buzz
+=========
 
 Print the numbers from 1 to 100 inclusive, each on their own line.
 

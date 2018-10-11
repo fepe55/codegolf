@@ -1,6 +1,10 @@
 # flake8: noqa
+
 """
 https://code-golf.io/happy-numbers
+
+Happy Numbers
+=============
 
 A happy number is defined by the following sequence: Starting with any positive
 integer, replace the number by the sum of the squares of its digits in
