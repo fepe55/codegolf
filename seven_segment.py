@@ -82,7 +82,7 @@ def golf():
  g='|_ '
  m=[c,d,e,e,f,g,g,d,f,f]
  d=[f,d,g,e,d,e,f,d,f,e]
- print('\n'.join([''.join(['   ' if int(x) in [1,4] else ' _ ' for x in n]),''.join([m[int(x)] for x in n]),''.join([d[int(x)] for x in n])]))
+ print('\n'.join([''.join(['   'if int(x) in [1,4] else ' _ ' for x in n]),''.join([m[int(x)] for x in n]),''.join([d[int(x)] for x in n])]))
 
 
 if __name__ == '__main__':
